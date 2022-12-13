@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;1,200;1,400&family=Roboto+Mono:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <title>Kalkulator walutowy</title>
+</head>
+
+<body>
+    <div class="container">
+        <p class="container__text">Kalkulator walutowy</p>
+        <form class="form js-form">
+            <fieldset class="form__fieldset">
+                <p><span class="form__labelText"> Podaj kwotę w PLN</span></p>
+                <input class="form__field js-form__money" required type="number" min="0.1" step="any" autofocus>
+                <span class="form__labelText"></span>
+                <p>Wybierz walutę
+                <p><select class="form__select js-form__currency">
+                        <option value="EUR">EUR</option>
+                        <option value="USD">USD</option>
+                        <option value="GBP">GBP</option>
+                    </select>
+                <p>
+            </fieldset>
+            <p>
+                <button class="form__button">Przelicz</button>
+            <div class="form__result js-form__result">
+                N/A
+            </div>
+            <button class="form__button" type="reset">Wyczyść</button>
+        </form>
+    </div>
+</body>
+
+</html>

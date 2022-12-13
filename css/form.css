@@ -1,0 +1,38 @@
+.form__fieldset {
+    border-radius: 5px;
+}
+
+.form__labelText {
+    width: 150;
+    display: inline-block;
+}
+
+.form__field {
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 100px;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.form__button {
+    width: 100%;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.form__select {
+    width: 100%;
+    max-width: 100px;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.form__result {
+    text-align: center;
+    padding: 5px 2px 15px 2px;
+    margin: 5px
+}
