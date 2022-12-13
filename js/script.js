@@ -9,9 +9,9 @@ formElement.addEventListener("submit", (event) => {
     let currency = currencyElement.value;
     let currencySign;
 
-    let eurRate = 4.71;
-    let usdRate = 4.49;
-    let gbpRate = 5.48;
+    const eurRate = 4.71;
+    const usdRate = 4.49;
+    const gbpRate = 5.48;
 
     switch (currency) {
         case "EUR":
@@ -24,7 +24,7 @@ formElement.addEventListener("submit", (event) => {
             currencySign = gbpRate;
     }
 
-    let result = input / currencySign
+    const result = input / currencySign
     resultElement.innerText = result.toFixed(2)
     resultElement.innerText = `${inputElement.value} PLN = ${result.toFixed(2)} ${currency}`;
 });
