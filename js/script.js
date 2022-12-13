@@ -1,7 +1,7 @@
-let inputElement = document.querySelector(".js-form__money");
-let currencyElement = document.querySelector(".js-form__currency");
+let inputElement = document.querySelector(".js-formMoney");
+let currencyElement = document.querySelector(".js-formCurrency");
 let formElement = document.querySelector(".js-form");
-let resultElement = document.querySelector(".js-form__result");
+let resultElement = document.querySelector(".js-formResult");
 
 formElement.addEventListener("submit", (event) => {
     event.preventDefault();
