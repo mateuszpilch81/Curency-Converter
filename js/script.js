@@ -14,7 +14,7 @@ formElement.addEventListener("submit", (event) => {
     const gbpRate = 5.48;
 
     switch (currency) {
-        case "EUR":
+        case "EURo":
             currencySign = eurRate;
             break;
         case "USD":
