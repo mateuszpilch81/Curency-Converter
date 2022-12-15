@@ -1,13 +1,13 @@
 {
-    let inputElement = document.querySelector(".js-formMoney");
-    let currencyElement = document.querySelector(".js-formCurrency");
-    let formElement = document.querySelector(".js-form");
-    let resultElement = document.querySelector(".js-formResult");
+    const inputElement = document.querySelector(".js-formMoney");
+    const currencyElement = document.querySelector(".js-formCurrency");
+    const formElement = document.querySelector(".js-form");
+    const resultElement = document.querySelector(".js-formResult");
 
     formElement.addEventListener("submit", (event) => {
         event.preventDefault();
-        let input = inputElement.value;
-        let currency = currencyElement.value;
+        const input = inputElement.value;
+        const currency = currencyElement.value;
         let currencySign;
 
         const eurRate = 4.71;
