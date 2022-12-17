@@ -1,5 +1,5 @@
 .element {
     background-image: url("../images/blue-sky-clouds-watercolor-texture-background.jpg");
-    background-size: cover;
-
+    margin: 10px;
+    padding: 10px;
 }

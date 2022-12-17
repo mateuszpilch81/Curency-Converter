@@ -9,15 +9,15 @@ html {
 .container {
     max-width: 300px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     line-height: 1.5;
+    background-color: white;
 }
 
 .container__text {
     font-size: 20px;
-    padding: 10px;
     text-align: center;
     color: blue;
 }
