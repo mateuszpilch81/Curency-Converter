@@ -37,10 +37,11 @@
             resultElement.innerText = result.toFixed(2)
             resultElement.innerText = `${inputElement.value} PLN = ${result.toFixed(2)} ${currency}`;
         });
-        const reset = () => {
-            resultElement.classList.toggle("js-reset");
+        formElement.addEventListener("reset", () => {
+            const resultElement = document.querySelector(".js-formResult");
 
-        };
+            resultElement.innerText = "N/A";
+        });
     };
 
     init();
