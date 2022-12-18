@@ -34,9 +34,9 @@
             const currency = currencyElement.value;
             let result = calculateResult(input, currency);
 
-            resultElement.innerText = result.toFixed(2)
             resultElement.innerText = `${inputElement.value} PLN = ${result.toFixed(2)} ${currency}`;
         });
+
         formElement.addEventListener("reset", () => {
             const resultElement = document.querySelector(".js-formResult");
 
